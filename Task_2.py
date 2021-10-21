@@ -1,0 +1,7 @@
+print(bin(5))
+print(bin(6) + '\n')
+print(f'OR:{bin(5)}\n     |\n   {bin(6)} \n     =\n   {bin(5 | 6)} ', end='\n'+'-'*10 + '\n')
+print(f'Xor:{bin(5)}\n      ^\n    {bin(6)} \n      =\n    {bin(5 ^ 6)}', end='\n'+'-'*10 + '\n')
+print(f'And:{bin(5)}\n      &\n    {bin(6)} \n      =\n    {bin(5 & 6)}', end='\n'+'-'*10 + '\n')
+print(bin(5 >> 2))
+print(bin(5 << 2))
