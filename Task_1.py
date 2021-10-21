@@ -1,0 +1,5 @@
+x = int(input(' Введите трехзначное число: '))
+remainder, c = divmod(x, 10)
+a, b = divmod(remainder, 10)
+print(a + b + c)
+print(a * b * c)
